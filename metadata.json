@@ -1,0 +1,6 @@
+{
+  "name": "One Person One Vote - Secure Digital Election & Audit System",
+  "description": "Full-stack digital election platform enforcing strict One Person One Vote verification with React, Express, and MongoDB storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

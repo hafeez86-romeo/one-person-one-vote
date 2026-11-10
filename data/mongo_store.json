@@ -1,0 +1,276 @@
+{
+  "elections": [
+    {
+      "id": "elec-2026-general",
+      "title": "2026 University Student Council Presidential Election",
+      "description": "Official student body election conducted under strict One Person One Vote (OPOV) protocol with cryptographic receipt verification and MongoDB persistence.",
+      "category": "Student Government",
+      "status": "active",
+      "startDate": "2026-11-09T17:03:06.099Z",
+      "endDate": "2026-11-13T17:03:06.099Z",
+      "totalRegisteredVoters": 10,
+      "candidates": [
+        {
+          "id": "cand-01",
+          "name": "Elena Rostova",
+          "party": "Tech Innovation & Student Welfare Alliance",
+          "symbol": "⚡",
+          "bio": "Championing 24/7 AI lab access, digital campus voting, and subsidized meal plans.",
+          "avatarUrl": "/src/assets/images/candidate_elena_rostova_1794329871127.jpg",
+          "color": "#3B82F6"
+        },
+        {
+          "id": "cand-02",
+          "name": "Marcus Chen",
+          "party": "Campus Sustainability & Open Governance",
+          "symbol": "🌿",
+          "bio": "Promoting carbon-neutral university buildings, transparent budget allocations, and open forum senate.",
+          "avatarUrl": "/src/assets/images/candidate_marcus_chen_1794329871186.jpg",
+          "color": "#10B981"
+        },
+        {
+          "id": "cand-03",
+          "name": "Amina Diallo",
+          "party": "Academic Equity & Affordable Education Front",
+          "symbol": "📚",
+          "bio": "Fighting for textbook fee caps, emergency student relief grants, and mental health council expansion.",
+          "avatarUrl": "/src/assets/images/candidate_amina_diallo_1794329872497.jpg",
+          "color": "#8B5CF6"
+        },
+        {
+          "id": "cand-04",
+          "name": "David Kim",
+          "party": "Athletics & Career Development Coalition",
+          "symbol": "🎯",
+          "bio": "Expanding internship pipelines with top tech firms, modernizing recreational centers, and club funding.",
+          "avatarUrl": "/src/assets/images/candidate_david_kim_1794329872728.jpg",
+          "color": "#F59E0B"
+        }
+      ],
+      "createdAt": "2026-11-10T17:03:06.099Z"
+    }
+  ],
+  "voters": [
+    {
+      "id": "vtr-001",
+      "voterId": "VOT-2026-101",
+      "electionId": "elec-2026-general",
+      "name": "Sophia Rodriguez",
+      "department": "Computer Science & Engineering",
+      "email": "sophia.r@univ.edu",
+      "securityPin": "4192",
+      "hasVoted": false,
+      "registeredAt": "2026-11-09T17:03:06.099Z"
+    },
+    {
+      "id": "vtr-002",
+      "voterId": "VOT-2026-102",
+      "electionId": "elec-2026-general",
+      "name": "Arjun Mehta",
+      "department": "Information Technology",
+      "email": "arjun.m@univ.edu",
+      "securityPin": "8310",
+      "hasVoted": false,
+      "registeredAt": "2026-11-09T21:03:06.099Z"
+    },
+    {
+      "id": "vtr-003",
+      "voterId": "VOT-2026-103",
+      "electionId": "elec-2026-general",
+      "name": "Zara Al-Mansoor",
+      "department": "Electrical Engineering",
+      "email": "zara.am@univ.edu",
+      "securityPin": "6745",
+      "hasVoted": false,
+      "registeredAt": "2026-11-09T23:03:06.099Z"
+    },
+    {
+      "id": "vtr-004",
+      "voterId": "VOT-2026-104",
+      "electionId": "elec-2026-general",
+      "name": "Liam O'Connor",
+      "department": "Mechanical Engineering",
+      "email": "liam.oc@univ.edu",
+      "securityPin": "1904",
+      "hasVoted": false,
+      "registeredAt": "2026-11-10T02:03:06.099Z"
+    },
+    {
+      "id": "vtr-005",
+      "voterId": "VOT-2026-105",
+      "electionId": "elec-2026-general",
+      "name": "Ananya Sharma",
+      "department": "Biotechnology & Bioengineering",
+      "email": "ananya.s@univ.edu",
+      "securityPin": "5523",
+      "hasVoted": false,
+      "registeredAt": "2026-11-10T05:03:06.099Z"
+    },
+    {
+      "id": "vtr-006",
+      "voterId": "VOT-2026-106",
+      "electionId": "elec-2026-general",
+      "name": "Kofi Mensah",
+      "department": "Business Administration",
+      "email": "kofi.m@univ.edu",
+      "securityPin": "7819",
+      "hasVoted": false,
+      "registeredAt": "2026-11-10T07:03:06.099Z"
+    },
+    {
+      "id": "vtr-007",
+      "voterId": "VOT-2026-107",
+      "electionId": "elec-2026-general",
+      "name": "Hana Tanaka",
+      "department": "Design & Architecture",
+      "email": "hana.t@univ.edu",
+      "securityPin": "3341",
+      "hasVoted": false,
+      "registeredAt": "2026-11-10T09:03:06.099Z"
+    },
+    {
+      "id": "vtr-008",
+      "voterId": "VOT-2026-108",
+      "electionId": "elec-2026-general",
+      "name": "Lucas Vance (Pre-voted)",
+      "department": "Mathematics & Computing",
+      "email": "lucas.v@univ.edu",
+      "securityPin": "9021",
+      "hasVoted": true,
+      "votedAt": "2026-11-10T13:03:42.951Z",
+      "ballotReceiptHash": "0x8f3c1b9942a78e12d4a5b6789123456789abcdef0123456789abcdef01234567",
+      "registeredAt": "2026-11-09T17:03:06.099Z"
+    },
+    {
+      "id": "vtr-009",
+      "voterId": "VOT-2026-109",
+      "electionId": "elec-2026-general",
+      "name": "Mei-Ling Zhou (Pre-voted)",
+      "department": "Physics & Applied Sciences",
+      "email": "meiling.z@univ.edu",
+      "securityPin": "6182",
+      "hasVoted": false,
+      "registeredAt": "2026-11-09T19:03:06.099Z"
+    },
+    {
+      "id": "vtr-010",
+      "voterId": "VOT-2026-110",
+      "electionId": "elec-2026-general",
+      "name": "Carlos Santana (Pre-voted)",
+      "department": "Economics",
+      "email": "carlos.s@univ.edu",
+      "securityPin": "4488",
+      "hasVoted": false,
+      "registeredAt": "2026-11-09T21:03:06.099Z"
+    }
+  ],
+  "ballots": [
+    {
+      "ballotId": "BAL-DEMO-001",
+      "electionId": "elec-2026-general",
+      "candidateId": "cand-01",
+      "timestamp": "2026-11-10T12:03:06.099Z",
+      "verificationHash": "0x8f3c1b9942a78e12d4a5b6789123456789abcdef0123456789abcdef01234567"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1794330222951-327",
+      "timestamp": "2026-11-10T17:03:42.951Z",
+      "action": "ELECTION_RESET",
+      "electionId": "elec-2026-general",
+      "severity": "warning",
+      "message": "Election reset to demo state: ballots cleared, voter statuses restored for testing."
+    },
+    {
+      "id": "log-1794330214546-985",
+      "timestamp": "2026-11-10T17:03:34.546Z",
+      "action": "DUPLICATE_VOTE_BLOCKED",
+      "electionId": "elec-2026-general",
+      "severity": "critical",
+      "message": "SECURITY ALERT: Duplicate vote attempt blocked for Voter ID: VOT-2026-101. Voter already cast ballot at 2026-11-10T17:03:27.295Z.",
+      "details": {
+        "voterId": "VOT-2026-101",
+        "voterName": "Sophia Rodriguez",
+        "previouslyVotedAt": "2026-11-10T17:03:27.295Z",
+        "previousReceiptHash": "0x712c8b9bf503b216a151e4edcd2747c27b58808aac14914a49decc5d89230144",
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "id": "log-1794330207295-157",
+      "timestamp": "2026-11-10T17:03:27.295Z",
+      "action": "VOTE_CAST_SUCCESS",
+      "electionId": "elec-2026-general",
+      "severity": "success",
+      "message": "Ballot cast successfully by verified voter [Voter ID: VOT-2026-101]. Cryptographic token generated.",
+      "details": {
+        "receiptHashShort": "0x712c8b9b...89230144",
+        "verificationCode": "VER-H7FVXH",
+        "timestamp": "2026-11-10T17:03:27.295Z"
+      }
+    },
+    {
+      "id": "log-1794330202502-999",
+      "timestamp": "2026-11-10T17:03:22.502Z",
+      "action": "DUPLICATE_VOTE_BLOCKED",
+      "electionId": "elec-2026-general",
+      "severity": "critical",
+      "message": "SECURITY ALERT: Duplicate vote attempt blocked for Voter ID: VOT-2026-108. Voter already cast ballot at 2026-11-10T12:03:06.099Z.",
+      "details": {
+        "voterId": "VOT-2026-108",
+        "voterName": "Lucas Vance (Pre-voted)",
+        "previouslyVotedAt": "2026-11-10T12:03:06.099Z",
+        "previousReceiptHash": "0x8f3c1b9942a78e12d4a5b6789123456789abcdef0123456789abcdef01234567",
+        "ip": "127.0.0.1"
+      }
+    },
+    {
+      "id": "log-001",
+      "timestamp": "2026-11-09T17:03:06.099Z",
+      "action": "SEED_DATA",
+      "electionId": "elec-2026-general",
+      "severity": "info",
+      "message": "Election system initialized with verified electoral roll and MongoDB persistence."
+    },
+    {
+      "id": "log-002",
+      "timestamp": "2026-11-10T12:03:06.099Z",
+      "action": "VOTE_CAST_SUCCESS",
+      "electionId": "elec-2026-general",
+      "severity": "success",
+      "message": "Voter VOT-2026-108 successfully cast ballot. One Person One Vote token recorded.",
+      "details": {
+        "receiptHash": "0x8f3c1b9942a78e12d4a5b6789123456789abcdef0123456789abcdef01234567"
+      }
+    },
+    {
+      "id": "log-003",
+      "timestamp": "2026-11-10T13:03:06.099Z",
+      "action": "DUPLICATE_VOTE_BLOCKED",
+      "electionId": "elec-2026-general",
+      "severity": "critical",
+      "message": "SECURITY ALERT: Duplicate voting attempt blocked for Voter ID: VOT-2026-108. Ballot rejected under OPOV rule.",
+      "details": {
+        "voterId": "VOT-2026-108",
+        "attemptedAt": "2026-11-10T13:03:06.099Z"
+      }
+    },
+    {
+      "id": "log-004",
+      "timestamp": "2026-11-10T14:03:06.099Z",
+      "action": "VOTE_CAST_SUCCESS",
+      "electionId": "elec-2026-general",
+      "severity": "success",
+      "message": "Voter VOT-2026-109 successfully cast ballot. One Person One Vote token recorded."
+    },
+    {
+      "id": "log-005",
+      "timestamp": "2026-11-10T16:03:06.099Z",
+      "action": "VOTE_CAST_SUCCESS",
+      "electionId": "elec-2026-general",
+      "severity": "success",
+      "message": "Voter VOT-2026-110 successfully cast ballot. One Person One Vote token recorded."
+    }
+  ]
+}
